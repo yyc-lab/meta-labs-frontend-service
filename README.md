@@ -1,11 +1,11 @@
-# meta-labs-frontend-service
+# Meta Labs Frontend Service
 Frontend design for building our app to build more apps
 
 ## Setup
-git clone **[repo](https://github.com/yyc-lab/meta-labs-frontend-service)**
-``cd lab-core``
-run ``npm install`` in the terminal
-``npm start``
+git clone **[repo](https://github.com/yyc-lab/meta-labs-frontend-service)**  
+``cd lab-core``  
+run ``npm install`` in the terminal  
+``npm start``  
 
 ## Tech Stack
 - [React](https://reactjs.org/)
@@ -16,7 +16,7 @@ run ``npm install`` in the terminal
 - [Redux]()?
 
 ## How to Documentation
----
+
 ### Story Book
 <https://storybook.js.org/docs/guides/quick-start-guide/>
 
@@ -24,7 +24,7 @@ Follow these steps to get started with Storybook.
 
 Get started using the automated command line tool. This command adds a set of boilerplate files for Storybook in your project:
 
-``cd my-project-directory``
+``cd my-project-directory``  
 ``npx -p @storybook/cli sb init``
 
 The tool inspects your ``package.json`` to determine which view layer you’re using. If you want to develop HTML snippets in storybook, we can’t determine that automatically. So to install storybook for HTML, use the ``--type`` flag to force that the HTML project type:
