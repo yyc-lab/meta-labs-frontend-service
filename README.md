@@ -18,7 +18,16 @@ run ``npm install`` in the terminal
 ## How to Documentation
 - prefer to use named exports (ie. export const Component.....) rather than default exports Component.....
 ### How to Add a new page
-- erate  
+- create the page folder under pages
+- add to switch in the App.js file and import the folder path
+
+### State Management
+avoid importing directly from reactn, always use the state management file
+add link to github reactn documentation, especially to link useGlobal
+
+### API Management
+
+
 
 
 ### Story Book
