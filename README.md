@@ -16,6 +16,10 @@ run ``npm install`` in the terminal
 - [Redux]()?
 
 ## How to Documentation
+- prefer to use named exports (ie. export const Component.....) rather than default exports Component.....
+### How to Add a new page
+- erate  
+
 
 ### Story Book
 <https://storybook.js.org/docs/guides/quick-start-guide/>
@@ -50,3 +54,9 @@ Tutorials <http://zetcode.com/javascript/jest/>
 
 ### Cypress
 Tutorials <https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App>
+
+
+
+### Notes to clean up later
+
+- 
