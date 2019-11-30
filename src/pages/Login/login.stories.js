@@ -1,7 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-// import Task from './Task';
+import { LoginPage } from './LoginPage';
 
-storiesOf('Task', module)
-  .add('default', () => <div>Login</div>)
+
+storiesOf('Login Page', module)
+  .add('default', () => <LoginPage/>);

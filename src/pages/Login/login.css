@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+#login-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20vh;
+  /* justify-content: center; */
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 4.5rem; /*72px*/
+  color: #007BFF;
+  line-height: 2;
+}
