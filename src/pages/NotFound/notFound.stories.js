@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { Login } from './Login';
+import { NotFound } from './NotFound';
 
 
-storiesOf('Login Page', module)
-  .add('default', () => <Login/>);
+storiesOf('NotFound Page', module)
+  .add('default', () => <NotFound/>);
