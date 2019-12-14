@@ -1,11 +1,17 @@
 import React from 'react';
-import axios from 'axios';
-import { LOGIN, LOGOUT, BASE_URL } from 'constants/APIRoutes'
+import { LOGIN, LOGOUT } from '../../constants/APIRoutes';
+import { URL } from '../../env';
+// import { getCall } from '../../utils' TODO: change to utils after CORS resolved
 
 export const Auth = () => {
-  return (
-    <div>
-      <a href={`${BASE_URL}${LOGIN}`}>
+  console.log(`Auth ${URL}${LOGIN}`, 'and', process.env);
+    
+  // TODO: use the axios util to send Get request instead of link
+  // return process.env.REACT_APP_NODE_ENV !== 'development'? 
+  // (<button type="button" onClick={getCall(LOGIN, '/projects')}>Login</button>
+  // ) :
+  return (<div>
+      <a href={`${URL}${LOGIN}`}>
       <button type="button">Login</button>
       </a>
       Github login: you'll be redirected to /projects with successful login
@@ -16,10 +22,10 @@ export const Auth = () => {
 export const Logout = () => {
   return (
     <div>
-      <a href={`${BASE_URL}${LOGOUT}`}>
+      <a href={`${URL}${LOGOUT}`}>
       <button type="button">Logout</button>
       </a>
-      Github login: you'll be redirected to /projects with successful login
+      Github logout: you'll be redirected to / wiht successufl logout
     </div>
   )
 }

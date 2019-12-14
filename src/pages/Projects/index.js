@@ -1,5 +1,5 @@
 import React from 'react'
-import {useGlobal} from 'state'
+import {useGlobal} from '../../state'
 import {Logout} from '../../components/Auth'
 
 export const Projects = () => {

@@ -27,8 +27,13 @@ add link to github reactn documentation, especially to link useGlobal
 
 ### API Management
 
+### Builds
 
+`create-react` default NODE_ENV is `development`.  Add your build setting in two ways:
+1. Add `REACT_APP_<VARIABLES>` to `.env` (see `.env.example` as an example)
+2. Add `REACT_APP_<VARIABLE>=value` to your `npm start`
 
+`REACT_APP_NODE_MODE` has alreay been created.  You can find the available build options under `src/env.js`.
 
 ### Story Book
 <https://storybook.js.org/docs/guides/quick-start-guide/>

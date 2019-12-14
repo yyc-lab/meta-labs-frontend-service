@@ -1,0 +1,3 @@
+export {
+  getCall
+} from './dataGet'
