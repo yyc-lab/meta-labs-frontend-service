@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 export const Task = () => {
   return (
     <div>
-      Task
+      Project Name, Issue, Status, Due Date 
     </div>
   )
 }
