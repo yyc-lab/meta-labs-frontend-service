@@ -3,7 +3,7 @@ Frontend design for building our app to build more apps
 
 ## Setup
 git clone **[repo](https://github.com/yyc-lab/meta-labs-frontend-service)**  
-``cd lab-core``  
+``cd meta-labs-frontend-service``  
 run ``npm install`` in the terminal  
 ``npm start``  
 
@@ -22,15 +22,16 @@ run ``npm install`` in the terminal
 - add to switch in the App.js file and import the folder path
 
 ### State Management
-avoid importing directly from reactn, always use the state management file
-add link to github reactn documentation, especially to link useGlobal
+Avoid importing directly from reactn, always use the state management file
+[ReactN](https://www.npmjs.com/package/reactn)
+ReactN [useGlobal](https://www.npmjs.com/package/reactn#useglobal) function
 
 ### API Management
 
 
 
 
-### Story Book
+### Story Book (Generic Instructions)
 <https://storybook.js.org/docs/guides/quick-start-guide/>
 
 Follow these steps to get started with Storybook.
@@ -63,8 +64,6 @@ Tutorials <http://zetcode.com/javascript/jest/>
 
 ### Cypress
 Tutorials <https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App>
-
-
 
 ### Notes to clean up later
 
