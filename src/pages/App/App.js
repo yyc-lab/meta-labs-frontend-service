@@ -4,6 +4,7 @@ import {Dashboard} from '../Dashboard'
 import {NotFound} from '../NotFound'
 import {Projects} from '../Projects'
 import {Login} from '../Login'
+import 'antd/dist/antd.css'
 
 import {
   BrowserRouter as Router,
