@@ -2,8 +2,7 @@ import React from 'react'
 import {useGlobal} from '../../state'
 
 export const Projects = () => {
-  const projects = useGlobal('projects')
-  console.log(projects)
+  const [projects] = useGlobal('projects')
   return (
     <div>
       Projects Page
