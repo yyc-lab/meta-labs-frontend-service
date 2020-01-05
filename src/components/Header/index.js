@@ -3,7 +3,6 @@ import React from 'react';
 export const Header = () =>
   (
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
       <p>
         A place for collaboration, learning, and innovation. Bring your ideas to life.
       </p>
