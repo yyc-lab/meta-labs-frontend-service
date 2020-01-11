@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Task } from '../Task'
-import { Table } from 'antd'
+import { Table } from '../../external_components'
 
 const columns = [
   {
