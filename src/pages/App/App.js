@@ -1,9 +1,9 @@
 import React from 'react';
-import {Layout} from '../../components/Layout'
-import {Dashboard} from '../Dashboard'
-import {NotFound} from '../NotFound'
-import {Projects} from '../Projects'
-import {Login} from '../Login'
+import { Layout } from '../../components/Layout'
+import { Dashboard } from '../Dashboard'
+import { NotFound } from '../NotFound'
+import { Projects } from '../Projects'
+import { Login } from '../Login'
 import 'antd/dist/antd.css'
 
 import {
