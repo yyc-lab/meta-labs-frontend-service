@@ -23,6 +23,7 @@ run ``npm install`` in the terminal
 
 ### State Management
 Avoid importing directly from reactn, always use the state management file
+You use [ global, setGlobal ] = useGlobal() to access the entire global state object.
 [ReactN](https://www.npmjs.com/package/reactn)
 ReactN [useGlobal](https://www.npmjs.com/package/reactn#useglobal) function
 

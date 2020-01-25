@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.26.4",
+    "query-string": "^6.10.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router": "^5.1.2",
