@@ -1,16 +1,16 @@
 import React from 'react'
-import { Header } from '../Header'
+// import { Header } from '../Header'
 import { Layout as LayoutExt } from '../../external_components'
 import { TaskList } from '../../components/TaskList'
 import { ProjectsPanel } from '../../components/ProjectsPanel'
 
-const { Content } = LayoutExt
+const { Header, Content } = LayoutExt
 
 export const Layout = (props) => {
   return (
     <div>
       <LayoutExt>
-        <Header />
+        <Header>Header</Header>
         {props.children}
         <Content           
           style={{
@@ -23,7 +23,7 @@ export const Layout = (props) => {
           }}>
           <TaskList />
           <div>Create Toggle Component: My Project / All Projects</div>
-          <ProjectsPanel />
+          <ProjectsPanel />        
         </Content>
       </LayoutExt>
     </div>
