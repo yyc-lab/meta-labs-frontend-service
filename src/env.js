@@ -13,6 +13,6 @@ const config = {
   'production': {
     URL: 'https://metalabyyc.herokuapp.com'
   }
-}[process.env.REACT_APP_NODE_ENV]
+}[process.env.REACT_APP_NODE_ENV || 'development']
 
 export const URL = config.URL
